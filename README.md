@@ -1,3 +1,52 @@
+## Pop Quiz - Day 1
+
+1. What is destructuring? Why would you use it?
+   Syntactic sugar for extracting from arrays or objects
+2. What library renders React for the web?
+   ReactDOM
+3. Var is dead. Why? What should you use instead?
+   Var scopes to the entire module/file. Use const/let instead.
+4. How do you copy an object in JS? Is it a deep or shallow copy? What's the diff?
+   Object assign
+5. What tool did we use to generate our React app?
+   create-react-app
+6. The tool we used, uses Webpack. What's webpack?
+   Bundles files together
+7. What is Babel?
+   Transpiles JS to older versions for browser compatibility
+8. What tool am I using to format my code? Why is autoformatting useful?
+   Prettier. Makes code more uniform across teams/orgs
+9. What hook did we use for handling data that changes over time?
+   use state
+10. When does React re-render?
+    When state changes
+11. What hook did we use to run code once, when the component first loads?
+    Use effect
+12. We created an infinite loop yesterday with that hook. What was our mistake?
+    Use effect would trigger a state change, causing a rerender
+13. What tool did we use to create a mock API? Why not just hard code some JSON instead?
+    json-server. So you don't lose your state
+14. What did we use to make an HTTP call?
+    fetch. Could also use axios
+15. What is the name of React's "flavor" of HTML?
+    jsx
+16. Name at least 3 differences between HTML and the answer to 15.
+    classname vs class, HTML for vs normal for, object styles camel-cased, camel-cased props, comment via block
+17. Is JSX required?
+    No
+18. What is JSX compiled down to?
+    JS and HTML
+19. What tool is checking our code quality? Is it configurable? How do I see its output?
+    ESLint. Yes, very configurable
+20. Debugging: How do I debug my React app?
+    Put a debugger statement in with dev tools open on the browser
+21. I can see my original code in the browser. Is the browser running my original code? If not, what technology is allowing me to see my original code?
+    No. Source maps, used if dev tools are open
+22. What is a function that returns a boolean?
+    Predicate. Usually used for filter/map/find/some/every (higher-order functions)
+23. Name some useful array methods that are friendly to immutable data.
+    Filter, map, find, some, every
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
